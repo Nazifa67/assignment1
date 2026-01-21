@@ -181,6 +181,7 @@ text-align: center;
 #solution{
     background-color: #FFFFFF;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 #solution .solution-container{
     display: flex;
@@ -226,5 +227,36 @@ text-align: center;
     color: #001931;
 }
 
+#box{
+    padding: 0 120px 120px 120px;
+}
 
+#box .box-container{
+    width: 83%;
+    max-width: 1360px;
+    margin: 0 auto;
+   background-color: #F7F6F2;
+   padding: 80px 40px;
+   border: none;
+   border-radius: 12px;
+   text-align: center;
+}
 
+.box-container h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.box-container p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color:#627382;
+    line-height: 24px;
+}
+
+.box-container button{
+    margin-bottom: 16px;
+}
