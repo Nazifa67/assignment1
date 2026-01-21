@@ -44,7 +44,9 @@ nav .menu a{
     align-items: center;
     gap: 10px;
 }
-
+.btn:hover{
+    background-color: blue;
+}
 #banner{
     background: url(../assets/hero-bg.png);
     background-size: cover;
@@ -69,6 +71,7 @@ nav .menu a{
     font-size: 16px;
     font-weight: 600;
     margin-top: 154.5px;
+    cursor: pointer;
 }
 
 #banner .banner-content h1{
@@ -99,6 +102,7 @@ nav .menu a{
     display: flex;
     justify-content: center;
     gap: 16px;
+    cursor: pointer;
 }
 
 .banner-content .btn2{
@@ -139,15 +143,14 @@ text-align: center;
 
 .notes-container .info{
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
    max-width: 1360px;
    margin: 0 auto;
 }
 .info .info-card{
     border-radius: 8px;
-   padding: 24px;
-    max-width: 322px;
+    padding: 24px;
+    max-width: 320px;
     box-shadow: 0 0 8px 0 #00000021;
     background-color: #FFFFFF;
     width: 83%;
@@ -303,7 +306,7 @@ footer{
     padding-bottom: 30px;
 }
 
-.line{
+footer hr{
     max-width: 1360px;
     border: none;
     height: 1px;
