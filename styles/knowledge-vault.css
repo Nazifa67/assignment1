@@ -107,5 +107,70 @@ nav .menu a{
     border-radius: 4px;
 }
 
+#notes{
+    padding-top: 60px;
+}
+#notes .notes-container{
+  width: 83%;
+margin: 0 auto;
+max-width: 1360px;
+text-align: center;
+box-sizing: border-box;  
+}
 
+.notes-container .notes-heading h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
 
+.notes-heading p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 44px;
+
+}
+
+.notes-container .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+   max-width: 1360px;
+   margin: 0 auto;
+}
+.info .info-card{
+    border-radius: 8px;
+   padding: 24px;
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #00000021;
+    width: 83%;
+}
+
+.info-card img{
+    max-width: 60px;
+    background-color: #F95555;
+    border: none;
+    border-radius: 50%;
+    padding:14.09px;
+    margin-top: 69.5px;
+    margin-bottom: 16px; ;
+}
+.info-card h3{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px ;
+    max-width: 274px;
+}
+
+.info-card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 69.5px;
+    line-height: 20px;
+
+}
